@@ -71,7 +71,7 @@ function App() {
             <p className="text-sm text-muted-foreground">No response yet...</p>
           )}
         </ScrollArea>
-        {name.map(item=><h1>{item.data}</h1>)}
+        {name.map(item=><h1>{item.data.value}</h1>)}
       </div>
     </div>
   );
