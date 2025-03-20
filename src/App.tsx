@@ -70,6 +70,7 @@ function App() {
             <p className="text-sm text-muted-foreground">No response yet...</p>
           )}
         </ScrollArea>
+        <h1>This is a heading for testing</h1>
       </div>
     </div>
   );
