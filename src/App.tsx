@@ -8,6 +8,7 @@ function App() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const [session, setSession] = useState();
+  let name='ankit'
 
   useEffect(() => {
     const loadSession = async () => {
@@ -70,6 +71,7 @@ function App() {
             <p className="text-sm text-muted-foreground">No response yet...</p>
           )}
         </ScrollArea>
+        {name.map(item=><h1>{item.data}</h1>)}
       </div>
     </div>
   );
